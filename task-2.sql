@@ -1,4 +1,4 @@
-ђҐ¦Ё¬ ўлў®¤  Є®¬ ­¤ ­  нЄа ­ (ECHO) ўЄ«озҐ­.
+пїЅпїЅпїЅпїЅпїЅ пїЅлў®пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅа ­ (ECHO) пїЅпїЅпїЅпїЅзҐ­.
 
 
 CREATE TABLE categories (
@@ -34,7 +34,7 @@ JOIN categories c ON m.category_id = c.id;
 SELECT m.title, r.rental_date
 FROM rentals r
 JOIN movies m ON r.movie_id = m.id
-WHERE r.customer_id = 1; -- Замените `1` на ID клиента
+WHERE r.customer_id = 1; -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ `1` пїЅпїЅ ID пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 
 SELECT m.title, COUNT(r.id) AS rental_count
